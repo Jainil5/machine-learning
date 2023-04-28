@@ -38,3 +38,5 @@ print("Pred:",prediction)
 print("Actu:",yt)
 
 print("Accuracy:",acc)
+
+#to verify make grayscale image of 28x28  and the to model.predict([array of the image])
