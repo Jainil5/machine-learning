@@ -1,7 +1,8 @@
 from PIL import Image
 
-img = Image.open("5.png")
+img = Image.open("D:\Python Projects\mldl\digit-classifier/digits/0.png")
 
 data = list(img.getdata())
 
 print(data)
+print(len(data))
